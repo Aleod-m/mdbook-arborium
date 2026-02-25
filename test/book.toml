@@ -1,0 +1,11 @@
+[book]
+title = "test"
+authors = ["Adrien Derobert-Mazure"]
+language = "en"
+
+[preprocessor.mdbook-arboruim]
+command = "cargo run --manifest-path=../Cargo.toml"
+
+[output.html]
+additional-js = ["./mdbook-code-theme/code-theme-selector.js"]
+additional-css = ["./mdbook-code-theme/code-themes.css"]
