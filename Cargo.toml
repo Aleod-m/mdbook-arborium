@@ -6,7 +6,6 @@ edition = "2024"
 [dependencies]
 anyhow = "1.0.102"
 arborium = { version = "2.13.0", features = ["all-languages"]}
-clap = {version = "4.5.60", features = ["cargo"]}
 mdbook-markdown = "0.5.2"
 mdbook-preprocessor = "0.5.2"
 semver = "1.0.27"
